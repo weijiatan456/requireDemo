@@ -1,0 +1,70 @@
+/*Created by WeiJiaTan on 2016/5/19.*/
+@font-face {
+    font-family: "FZLTXH";
+    src: url('/p/assets/font/FZLTXH.eot');
+    src: url('/p/assets/font/FZLTXH.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('/p/assets/font/FZLTXH.woff') format('woff'), /* chrome、firefox */ url('/p/assets/font/FZLTXH.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('/p/assets/font/FZLTXH.svg#iconfont') format('svg');
+}
+*{margin:0;padding:0;}
+body{font-family:"FZLTXH",sans-serif;background:#ebebeb;font-size:14px;color:#666;}
+ul li{ list-style-type:none;}
+a{text-decoration:none;}
+em{font-style:normal;}
+img{vertical-align:top;border:0;}
+input, select, button,textarea{outline:none;}
+.clear:after,.cf:after{display:block;clear:both;height:0;content:' '}
+
+.shower_banner{width:100%;margin:0 auto;height:752px;background:url(http://pic.solux.cn/PC/0726/banner.jpg) no-repeat center center #000;}
+.shower_banner .banner_ct{width:1240px;margin:0 auto;position:relative;}
+.shower_banner h1{font-size:32px;font-weight:normal;text-align:center;color:#fff;padding-top:144px;line-height:60px;}
+.shower_banner h3{font-size:18px;font-weight:normal;text-align:center;color:#fe6c53;line-height:40px;}
+.shower_banner p{text-align:center;padding-top:30px;}
+.shower_banner p a{border:1px solid #fff;color:#fff;padding:8px 14px;font-size:18px;cursor:default;}
+.shower_banner .site{width:148px;position:absolute;top:20px;right:0px;display:block;color:#fff;text-align:center;font-size:18px;background:rgba(0,0,0,0.4);border-radius:10px;padding:10px 15px;}
+
+.shower_ct{width:1240px;background:#fff;margin:-60px auto 0;padding-bottom:80px;}
+.shower_ct h1{color:#ff5a3e;font-size:32px;line-height:60px;height:60px;font-weight:normal;text-align:center;padding-top:50px;}
+.shower_ct p{text-align:center;color:#9c9c9c;font-size:18px;line-height:26px;padding-bottom:10px;}
+.shower_ct .msg{text-align:center;font-size:18px;line-height:32px;padding:30px 0 20px;}
+.shower_ct .sh_item{position:relative;width:1000px;margin:22px auto 0;}
+.shower_ct .sh_item p{position:absolute;color:#fff;line-height:30px;text-align:left;}
+.shower_ct .sh_item .txt1{top:190px;left:56px;}
+.shower_ct .sh_item .txt2{top:190px;left:600px;}
+.shower_ct .sh_item .txt3{top:190px;left:600px;}
+.shower_ct .sh_item .txt4{top:190px;left:56px;}
+.shower_ct .sh_item .txt5{top:190px;left:56px;}
+
+.shower_cj{width:1240px;background:#fff;margin:30px auto 0;padding-bottom:80px;}
+.shower_cj h1{color:#ff5a3e;font-size:32px;line-height:60px;height:60px;font-weight:normal;text-align:center;padding-top:50px;}
+.shower_cj p{text-align:center;color:#9c9c9c;font-size:18px;line-height:26px;padding-bottom:10px;}
+.shower_cj .cj_box{padding:100px 530px 0 100px;position:relative;}
+.shower_cj .cj_box p{text-align:left;color:#474747;font-size:16px;}
+.shower_cj .cj_box .tips{color:#ff601a;font-size:18px;margin-top:20px;}
+.shower_cj .cj_box img{position:absolute;right:100px;top:20px;}
+
+.shower_theme{width:1240px;background:#fff;margin:30px auto 0;padding-bottom:72px;overflow:hidden;}
+.shower_theme h1{color:#ff5a3e;font-size:32px;line-height:60px;height:60px;font-weight:normal;text-align:center;padding-top:50px;}
+.shower_theme p{text-align:center;color:#9c9c9c;font-size:18px;line-height:26px;padding-bottom:10px;}
+.shower_theme .item{padding-left:106px;overflow:hidden;padding-top:44px;}
+.shower_theme .item li{float:left;margin-right:48px;padding-bottom:38px;}
+.shower_theme .item li .theme_box{background:#f6f6f6;overflow:hidden;position:relative;}
+.theme_box .name{padding-left:16px;width:180px;float:left;font-size:18px;line-height:68px;}
+.theme_box .name a{color:#474747;width:100%;display:block;}
+.theme_box .price{color:#ff542c;font-size:18px;float:left;line-height:68px;}
+.theme_box .detail{color:#474747;line-height:68px;float:left;padding-left:30px;}
+.theme_box .btn{background:#ff5a3e;color:#fff;font-size:14px;border-radius:4px;width:102px;height:32px;display:block;text-align:center;position:absolute;right:16px;top:18px;line-height:32px;}
+
+.shower_ft{text-align:center;padding:96px 0 106px 0;}
+.shower_ft a{width:460px;height:108px;display:block;border-radius:4px;text-align: center;color: #393939;margin:0 auto;font-size:30px;border:1px solid #434343;line-height:108px;}
+
+/*弹出框 - 选择规格*/
+.selDialog{background:#f5f3f4;width:520px;height:620px;position:fixed;z-index:3;top:50%;margin-top:-310px;left:50%;margin-left:-260px;display:none;}
+.selDialog .title{width:100%;height:100px;line-height:100px;text-align:center;background:#ef4d33;color:#fff;font-size:26px;padding-top:10px;}
+.selDialog .close{width:6%;position: absolute;right:2%;top:2%;cursor:pointer;}
+.selDialog .group{padding-top:50px;width:100%;}
+.selDialog .group ul{padding-left:38px;}
+.selDialog .group ul li{width:210px;height:320px;margin-right:20px;float: left;border:1px solid #fff;}
+.selDialog .group .btn{width:60%;height:56px;line-height:56px;border-radius:5px;text-align:center;display:block;background:#ef4d33;color:#fff;font-size:16px;position:absolute;left:50%;bottom:38px;margin-left:-30%;}
+.dialogBg{width: 100%;height: 100%;background-color: #000; opacity: .8;filter:alpha(opacity=80);position: fixed;top: 0;left: 0;z-index:2;display: none;}
+
+/*信息提示框*/
+.pop_msg{width:auto;background:#ffffff;padding:15px 30px;color:#333;font-size:18px;position:fixed;left:50%;top:40%;text-align:center;border-radius:3px;box-shadow:0 0 5px #999;z-index:1000;}
